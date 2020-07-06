@@ -4,7 +4,7 @@ cd d
 git clone https://github.com/kshramt/dotfile_w.git
 git clone https://github.com/kshramt/bin.git
 curl -fsSL https://get.docker.com/rootless | sh
-cat <<E >> ~/.bashrc
+cat <<'E' >> ~/.bashrc
 export PATH="$HOME":bin:"$PATH"
 export DOCKER_HOST=unix:///run/user/"$(id -u)"/docker.sock
 E
