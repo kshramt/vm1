@@ -8,7 +8,8 @@ run apt-get update \
       systemctl \
       git \
       wget \
-      build-essential
+      build-essential \
+      && rm -rf /var/lib/apt/lists/*
 
 run ln -s d/dotfile_w/u2004 dotfile \
       && ln -s dotfile/.emacs.d \
