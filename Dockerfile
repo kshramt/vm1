@@ -14,6 +14,8 @@ run apt-get update \
       python3-venv \
       tig \
       tmux \
+      bash-completion \
+      emacs \
       && rm -rf /var/lib/apt/lists/*
 
 run ln -s d/p/dotfile_w/u2004 dotfile \
