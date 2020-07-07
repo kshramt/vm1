@@ -12,7 +12,7 @@ run apt-get update \
       less \
       && rm -rf /var/lib/apt/lists/*
 
-run ln -s d/dotfile_w/u2004 dotfile \
+run ln -s d/p/dotfile_w/u2004 dotfile \
       && ln -sf dotfile/.bash_history \
       && ln -sf dotfile/.bash_location \
       && ln -sf dotfile/.emacs.d \

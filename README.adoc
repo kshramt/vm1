@@ -1,6 +1,6 @@
 ----
-mkdir d
-cd d
+mkdir -p d/p
+cd d/p
 git clone https://github.com/kshramt/dotfile_w.git
 git clone https://github.com/kshramt/bin.git
 curl -fsSL https://get.docker.com/rootless | sh
@@ -10,8 +10,6 @@ export DOCKER_HOST=unix:///run/user/"$(id -u)"/docker.sock
 E
 systemctl --user enable docker
 systemctl --user start docker
-docker run --rm -it kshra/vm1:vx
-
 docker run -v"$HOME"/d:/root/d --rm -it kshra/vm1
 
 emacs --batch --load ~/.emacs.d/init.el --eval '(initial-setup)'
