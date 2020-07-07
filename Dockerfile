@@ -12,6 +12,8 @@ run apt-get update \
       && rm -rf /var/lib/apt/lists/*
 
 run ln -s d/dotfile_w/u2004 dotfile \
+      && ln -sf dotfile/.bash_history \
+      && ln -sf dotfile/.bash_location \
       && ln -sf dotfile/.emacs.d \
       && ln -sf dotfile/.tmux.conf \
       && ln -sf dotfile/.bashrc \
