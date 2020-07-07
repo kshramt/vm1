@@ -12,6 +12,7 @@ run apt-get update \
       less \
       python3-pip \
       python3-venv \
+      tig \
       && rm -rf /var/lib/apt/lists/*
 
 run ln -s d/p/dotfile_w/u2004 dotfile \
