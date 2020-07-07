@@ -10,7 +10,7 @@ export DOCKER_HOST=unix:///run/user/"$(id -u)"/docker.sock
 E
 systemctl --user enable docker
 systemctl --user start docker
-docker run -v"$HOME"/d:/root/d --rm -it kshra/vm1
+docker run -v"$HOME"/.ssh:/root/.ssh  -v"$HOME"/d:/root/d --rm -it kshra/vm1
 
 emacs --batch --load ~/.emacs.d/init.el --eval '(initial-setup)'
 
