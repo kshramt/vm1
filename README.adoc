@@ -13,4 +13,9 @@ systemctl --user start docker
 docker run --rm -it kshra/vm1:vx
 
 docker run -v"$HOME"/d:/root/d --rm -it kshra/vm1
+
+emacs --batch --load ~/.emacs.d/init.el --eval '(initial-setup)'
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+~/.tmux/plugins/tpm/bin/install_plugins
 ----
