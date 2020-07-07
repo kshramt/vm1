@@ -9,6 +9,7 @@ run apt-get update \
       git \
       wget \
       build-essential \
+      less \
       && rm -rf /var/lib/apt/lists/*
 
 run ln -s d/dotfile_w/u2004 dotfile \

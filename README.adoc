@@ -11,4 +11,6 @@ E
 systemctl --user enable docker
 systemctl --user start docker
 docker run --rm -it kshra/vm1:vx
+
+docker run -v"$HOME"/d:/root/d --rm -it kshra/vm1
 ----
