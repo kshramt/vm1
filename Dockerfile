@@ -26,4 +26,6 @@ run ln -s d/p/dotfile_w/u2004 dotfile \
       && ln -sf dotfile/.bashrc \
       && ln -sf dotfile/.bash_profile \
       && ln -sf dotfile/.inputrc \
-      && ln -sf dotfile/.config
+      && ln -sf dotfile/.config \
+      && ln -sf dotfile/.gitconfig
+
