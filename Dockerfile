@@ -10,6 +10,8 @@ run apt-get update \
       wget \
       build-essential \
       less \
+      python3-pip \
+      python3-venv \
       && rm -rf /var/lib/apt/lists/*
 
 run ln -s d/p/dotfile_w/u2004 dotfile \
