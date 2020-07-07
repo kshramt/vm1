@@ -13,6 +13,7 @@ run apt-get update \
       python3-pip \
       python3-venv \
       tig \
+      tmux \
       && rm -rf /var/lib/apt/lists/*
 
 run ln -s d/p/dotfile_w/u2004 dotfile \
