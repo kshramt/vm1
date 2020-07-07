@@ -4,18 +4,18 @@ workdir /root
 
 run apt-get update \
       && DEBIAN_FRONTEND=noninteractive apt-get install -y \
-      ssh \
-      systemctl \
-      git \
-      wget \
+      bash-completion \
       build-essential \
+      emacs \
+      git \
       less \
       python3-pip \
       python3-venv \
+      ssh \
+      systemctl \
       tig \
       tmux \
-      bash-completion \
-      emacs \
+      wget \
       && rm -rf /var/lib/apt/lists/*
 
 run ln -s d/p/dotfile_w/u2004 dotfile \
