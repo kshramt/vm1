@@ -6,6 +6,7 @@ run apt-get update \
       && DEBIAN_FRONTEND=noninteractive apt-get install -y \
       bash-completion \
       build-essential \
+      curl \
       emacs \
       git \
       less \
