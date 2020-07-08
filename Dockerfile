@@ -29,3 +29,7 @@ run ln -s d/p/dotfile_w/u2004 dotfile \
       && ln -sf dotfile/.inputrc \
       && ln -sf dotfile/.config \
       && ln -sf dotfile/.gitconfig
+      && ln -sf ~/d/h/.tmux \
+      && ln -sf ~/d/h/venv \
+      && ln -sf ~/d/h/.cache \
+      && :

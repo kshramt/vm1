@@ -15,12 +15,8 @@ docker run -v"$HOME"/.ssh:/root/.ssh  -v"$HOME"/d:/root/d --rm -it kshra/vm1
 emacs --batch --load ~/.emacs.d/init.el --eval '(initial-setup)'
 
 git clone https://github.com/tmux-plugins/tpm ~/d/h/.tmux/plugins/tpm
-ln -sf ~/d/h/.tmux
 ~/.tmux/plugins/tpm/bin/install_plugins
 
 python3 -m venv ~/d/h/venv
-ln -sf ~/d/h/venv
-
 mkdir -p ~/d/h/.cache
-ln -sf ~/d/h/.cache
 ----
