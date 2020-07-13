@@ -32,4 +32,5 @@ run ln -s d/p/dotfile_w/u2004 dotfile \
       && ln -sf ~/d/h/.tmux \
       && ln -sf ~/d/h/venv \
       && ln -sf ~/d/h/.cache \
+      && ln -sf ~/d/h/.local \
       && :
